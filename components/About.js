@@ -6,21 +6,22 @@ import { BsGlobe2 } from "react-icons/bs";
 import { TbPacman } from "react-icons/tb";
 import { IoLocationOutline } from "react-icons/io5";
 import Image from "next/image";
-import secondHoveredImage from "../components/Images/secondHoverdImage.png";
+import about from "../components/Images/about.jpeg";
 import Button from "./Button";
+import Link from "next/link";
 
 export default function About() {
   return (
     <>
-      <section className="container mx-auto py-10 px-4">
+      <section className="container mx-auto py-10 px-4" id="about">
         <Headings title="About Me" />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px] place-items-center">
           <div>
             {/* <img src="/components/Images/secondHoverdImage.png" className='w-[400px]' alt="" /> */}
-            <Image className="w-[400px] h-[234px]" alt="main-image" src={secondHoveredImage} />
+            <Image className="w-[400px] h-[234px]" alt="main-image" src={about} />
           </div>
           <div>
-            <div className="flex items-center justify-between w-[300px] ">
+            <div className="flex items-center justify-between w-[380px] ">
               <div className="flex flex-col gap-6">
                 <div className="flex gap-4 items-center font-medium">
                   <AiOutlineGift className="text-[#ff4d41] text-[22px]" />{" "}
@@ -30,7 +31,7 @@ export default function About() {
                   <FiBookOpen className="text-[#ff4d41] text-[22px]" /> Study
                 </div>
                 <div className="flex gap-4 items-center font-medium">
-                  <BsGlobe2 className="text-[#ff4d41] text-[22px]" /> Website
+                  <BsGlobe2 className="text-[#ff4d41] text-[22px]" />My Websites
                 </div>
                 <div className="flex gap-4 items-center font-medium">
                   <TbPacman className="text-[#ff4d41] text-[22px]" /> Interest
@@ -50,7 +51,7 @@ export default function About() {
               <div className="flex flex-col gap-6 text-gray-600">
                 <div>03.12.2003</div>
                 <div>University of hanumangarh</div>
-                <div>www.dummy.com</div>
+                <div><Link href="/portfolio">www.portolio.com</Link> </div>
                 <div>Reading , Blogging</div>
                 <div>Hisar,Haryana</div>
               </div>

@@ -4,7 +4,7 @@ import Headings from './Headings'
 export default function Contact() {
   return (
     <>
-    <div className="container mx-auto py-10 px-4">
+    <div className="container mx-auto py-10 px-4" id='contact'>
         <Headings title="Contact Us"/>
         <form action="" className='flex flex-col gap-8'>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

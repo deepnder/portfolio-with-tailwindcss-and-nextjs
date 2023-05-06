@@ -26,7 +26,7 @@ const toggleNavbar=()=>{
  <Hero/>
  <About/>
  <WhatIDo/>
- <Skills/>
+ <Skills />
  <Contact/>
  <Footer/>
  </>
