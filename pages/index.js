@@ -10,7 +10,6 @@ import Footer from '@/components/Footer'
 import { useState } from 'react'
 import Sidebar from '@/components/Sidebar'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 const [isOpen,setIsOpen]=useState(false)
