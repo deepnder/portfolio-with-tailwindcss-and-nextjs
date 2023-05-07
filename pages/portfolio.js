@@ -56,15 +56,15 @@ const projectData=[
 
   return (
    <>
-<div className="bg-[#000000] h-[200vh]">
-  <h1 className='text-white font-semibold text-[2rem] font-serif text-center pt-5'>Here my list of all projects</h1>
+<div className=" ">
+  <h1 className='text-black font-semibold text-[2rem] font-serif text-center pt-5'>Here my list of all projects</h1>
 
   <div className="flex flex-col justify-center px-5 pt-[6rem]">
     {projectData.map((items)=>
-     <div className="flex flex-col gap-[0.7rem] pb-8">
-     <h2 className='text-white text-[20px]'>{items.id}. {items.projectName}</h2>
-     <p className='text-blue-800 text-[20px]' >GitHub : <Link href={items.github}> {items.github}</Link></p>
-     <p className='text-blue-500 text-[20px]'>Website : <Link href={items.website}>{items.website} </Link> </p>
+     <div className="flex flex-col gap-[0.7rem] pb-8 container">
+     <h2 className='text-black text-[20px] '>{items.id}. {items.projectName}</h2>
+     <p className='text-black text-[16px]' >GitHub : <Link href={items.github}> {items.github}</Link></p>
+     <p className='text-black text-[16px]'>Website : <Link href={items.website}>{items.website} </Link> </p>
     </div>
     )}
 

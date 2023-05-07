@@ -21,23 +21,23 @@ export default function About() {
             <Image className="w-[400px] h-[234px]" alt="main-image" src={about} />
           </div>
           <div>
-            <div className="flex items-center justify-between w-[380px] ">
-              <div className="flex flex-col gap-6">
+            <div className="flex items-center justify-between w-[300px] sm:w-[397px] ">
+              <div className="flex flex-col gap-6 text-[14px] md:text-[20px]">
                 <div className="flex gap-4 items-center font-medium">
-                  <AiOutlineGift className="text-[#ff4d41] text-[22px]" />{" "}
+                  <AiOutlineGift className="text-[#ff4d41] text-[20px]" />{" "}
                   Birthday
                 </div>
                 <div className="flex gap-4 items-center font-medium">
-                  <FiBookOpen className="text-[#ff4d41] text-[22px]" /> Study
+                  <FiBookOpen className="text-[#ff4d41] text-[20px]" /> Study
                 </div>
                 <div className="flex gap-4 items-center font-medium">
-                  <BsGlobe2 className="text-[#ff4d41] text-[22px]" />My Websites
+                  <BsGlobe2 className="text-[#ff4d41] text-[20px]" />My Websites
                 </div>
                 <div className="flex gap-4 items-center font-medium">
-                  <TbPacman className="text-[#ff4d41] text-[22px]" /> Interest
+                  <TbPacman className="text-[#ff4d41] text-[20px]" /> Interest
                 </div>
                 <div className="flex gap-4 items-center font-medium">
-                  <IoLocationOutline className="text-[#ff4d41] text-[22px]" />{" "}
+                  <IoLocationOutline className="text-[#ff4d41] text-[20px]" />{" "}
                   Location
                 </div>
               </div>
@@ -48,7 +48,7 @@ export default function About() {
                 <div>:</div>
                 <div>:</div>
               </div>
-              <div className="flex flex-col gap-6 text-gray-600">
+              <div className="flex flex-col gap-6 text-gray-600 text-[14px] md:text-[20px]">
                 <div>03.12.2003</div>
                 <div>University of hanumangarh</div>
                 <div><Link href="/portfolio">www.portolio.com</Link> </div>

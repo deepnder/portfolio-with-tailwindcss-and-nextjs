@@ -11,12 +11,13 @@ export default function Sidebar({toggleNavbar,isOpen}) {
     </div>
     <div className="flex flex-col gap-4 text-[28px]">
       <a href="#" className='hover:text-[#ff4d41] '>Home</a>
-      <a href="#" className='hover:text-[#ff4d41] '>About</a>
-      <a href="#" className='hover:text-[#ff4d41] '>Portfolio</a>
-      <a href="#" className='hover:text-[#ff4d41] '>Blogs</a>
-      <a href="#" className='hover:text-[#ff4d41] '>Contact</a>
+      <a href="#about" className='hover:text-[#ff4d41] '>About</a>
+      <a href="/portfolio" className='hover:text-[#ff4d41] '>Portfolio</a>
+      <a href="#blogs" className='hover:text-[#ff4d41] '>Blogs</a>
+      <a href="#contact" className='hover:text-[#ff4d41] '>Contact</a>
     </div>
    </div>
    </>
   )
 }
+
