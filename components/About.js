@@ -15,13 +15,13 @@ export default function About() {
     <>
       <section className="container mx-auto py-10 px-4" id="about">
         <Headings title="About Me" />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px] place-items-center">
+        <div className="grid grid-cols-1  md:grid-cols-2 gap-[60px] place-items-center">
           <div>
             {/* <img src="/components/Images/secondHoverdImage.png" className='w-[400px]' alt="" /> */}
             <Image className="w-[400px] h-[234px]" alt="main-image" src={about} />
           </div>
-          <div>
-            <div className="flex items-center justify-between w-[300px] sm:w-[397px] ">
+          <div className=" flex flex-col justify-center   items-center md:items-start">
+            <div className="flex items-center justify-between w-[300px] sm:w-[344px] ">
               <div className="flex flex-col gap-6 text-[14px] md:text-[20px]">
                 <div className="flex gap-4 items-center font-medium">
                   <AiOutlineGift className="text-[#ff4d41] text-[20px]" />{" "}
